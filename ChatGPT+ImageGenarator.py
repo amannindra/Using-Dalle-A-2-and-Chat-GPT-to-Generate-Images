@@ -7,12 +7,7 @@ openai.api_key = "####"
 class Chat:
     def __init__(self):
         self.messages = []
-        self.initialDescription = ("You are going to Enhance the following Description in a way that it can be used to generate an image: "
-                                   "Description: the ball falling from the leaning tower of pisa. "
-                                   "You will respond with In the heart of Italy, a vibrant, sun-kissed ball descends rapidly from the apex of the iconic, "
-                                   "architecturally askew Leaning Tower of Pisa. The ball, caught mid-fall, contrasts dramatically against the azure sky "
-                                   "and ancient stone edifice, casting a fleeting shadow on the sunlit tower. Framed by verdant greenery and an awestruck audience, "
-                                   "this singular moment blends the simplicity of gravity with the grandeur of historical architecture.")
+        self.initialDescription = ("You are going to Enhance the following description in a way that it can be used to generate an image.")
         self.messages.append({"role": "system", "content": self.initialDescription})
     def get_enhanced_description(self, user_description):
         self.messages.append({"role": "user", "content": user_description})
