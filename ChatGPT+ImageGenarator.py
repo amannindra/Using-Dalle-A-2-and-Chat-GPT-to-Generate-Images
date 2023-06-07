@@ -2,7 +2,7 @@ import openai
 import base64
 import time
 
-openai.api_key = "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"
+openai.api_key = "####"
 
 class Chat:
     def __init__(self):
