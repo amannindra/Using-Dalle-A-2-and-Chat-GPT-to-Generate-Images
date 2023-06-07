@@ -1,6 +1,7 @@
 Using-Dalle-A-2-and-Chat-GPT-2-to-Generate-Images
 
-Welcome to my page! As a high school student passionate about programming and artificial intelligence, I've written these four Python scripts. These tools are quite diverse - they can carry on a regular conversation or even generate images. It's important to mention that much of the complex code in these scripts is borrowed from the OpenAI documentation and various YouTube tutorials. So, while the code isn't entirely original, I've put everything together to make these tools user-friendly. I hope you find them useful and enjoyable!
+Greetings! As a high schooler with a keen interest in programming and artificial intelligence, I've pieced together these four Python scripts. They offer a broad spectrum of functionalities, from engaging in a regular chat to conjuring up images. Please be aware that a good portion of the intricate code in these scripts was derived from the OpenAI documentation and multiple YouTube videos. Consequently, the scripts are not entirely of my own creation, but I've assembled them to ensure user-friendliness. Do note that some tweaks might be necessary to these scripts for personal use, given that the code may not represent the most efficient or appropriate use of ChatGPT and DALL-E-2. Nevertheless, I hope you find them useful and enjoyable!
+
 
 ChatGPT+ImageGenator.py
 This application is a splendid illustration of the principle of collaborative intelligence, incorporating elements derived from OpenAI's official documentation and educational YouTube videos. It is tailored to enable users to translate textual descriptions into vibrant visualizations, employing an efficient workflow involving OpenAI's GPT-3.5-turbo model and the DALL-E-2 model with the g64 plugin.
